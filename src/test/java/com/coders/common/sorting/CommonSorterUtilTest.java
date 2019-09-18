@@ -43,7 +43,7 @@ public class CommonSorterUtilTest {
 		
 		assertTrue("Sorted customer List - By ID: first item is wrong !", sortedCustomerList.get(0).equals(custc));
 		assertTrue("Sorted customer List - By ID: second item is wrong !", sortedCustomerList.get(1).equals(custb));
-		assertTrue("Sorted customer List - By ID: thord item is wrong !", sortedCustomerList.get(2).equals(custa));
+		assertTrue("Sorted customer List - By ID: third item is wrong !", sortedCustomerList.get(2).equals(custa));
 	}
 	
 	@Test
@@ -65,7 +65,7 @@ public class CommonSorterUtilTest {
 		
 		assertTrue("Sorted Product List - By CODE: first item is wrong !", sortedProductList.get(0).equals(proda));
 		assertTrue("Sorted Product List - By CODE: second item is wrong !", sortedProductList.get(1).equals(prodc));
-		assertTrue("Sorted Product List - By CODE: thord item is wrong !", sortedProductList.get(2).equals(prodb));
+		assertTrue("Sorted Product List - By CODE: third item is wrong !", sortedProductList.get(2).equals(prodb));
 	}
 
 }
